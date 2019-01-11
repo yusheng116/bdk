@@ -22,6 +22,7 @@ ul#menu {
 }
 
 ul#menu li {
+  font-size:40px;
   display: inline-block;
 }
 
@@ -68,6 +69,8 @@ footer#under {
   border-width:0 1px 1px 1px; 
   text-align:center;
 }
-
+ul#menu li#one{
+  font-size:70px;
+}
 
 

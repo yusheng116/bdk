@@ -5,11 +5,11 @@
 html, body {
   margin: 0;
   height: 100%;
+  width:100%
 }
 
 body {
-  padding: 20px;
-  background-repeat: repeat;
+  padding:0;
   margin: 0;
   padding: 0;
   
@@ -23,6 +23,7 @@ ul#menu {
 
 ul#menu li {
   display: inline-block;
+  font-size:40px;
 }
 
 
@@ -40,6 +41,8 @@ aside {
   float: left;
   border: 1px solid black;
   background-color: #FFF49C;
+  text-align:center;
+  
 }
 
 div#content {
@@ -50,21 +53,29 @@ div#content {
   border-width:1px 1px 1px 0;  
   background-color: #DAC6FF;
   text-align:center;
+  
 }
 
 footer#top {
+  clear:both;
   width:100%;
   background-color:gray;
   border: 1px solid black;
   text-align:center;
 }
 footer#under {
+  clear:both;
   width:100%;
   background-color:gray;
   border: 1px solid black;
   border-width:0 1px 1px 1px; 
   text-align:center;
 }
-
-
+h1{
+  color:#B61B1B;
+  font-size:90px;
+}
+ul#menu li#one{
+  font-size:70px;
+}
 
