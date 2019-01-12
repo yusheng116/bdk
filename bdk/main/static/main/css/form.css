@@ -44,18 +44,7 @@ aside {
   text-align:center;
   
 }
-table{
-  height:50;
-  width:100%;
-  textalign:center;
-}
-.s3{
-  height:18em;
-  width:35em;
-}
-.text3{
-  font-size:35px;
-}
+
 div#content {
   width: 30%;
   height: 100%;
@@ -82,14 +71,19 @@ footer#under {
   border-width:0 1px 1px 1px; 
   text-align:center;
 }
-h1{
+p{
   color:#B61B1B;
-  font-size:90px;
+  font-size:50px;
 }
 ul#menu li#one{
   font-size:70px;
+}
+.c2{
+  text-align:center;
+  font-size:50px;
 }
 
 .tt{
   text-decoration: none;
 }
+

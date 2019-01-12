@@ -5,11 +5,11 @@
 html, body {
   margin: 0;
   height: 100%;
+  width:100%
 }
 
 body {
-  padding: 20px;
-  background-repeat: repeat;
+ 
   margin: 0;
   padding: 0;
   
@@ -22,8 +22,8 @@ ul#menu {
 }
 
 ul#menu li {
-  font-size:40px;
   display: inline-block;
+  font-size:40px;
 }
 
 
@@ -42,8 +42,20 @@ aside {
   border: 1px solid black;
   background-color: #FFF49C;
   text-align:center;
+  
 }
-
+table{
+  height:50;
+  width:100%;
+  textalign:center;
+}
+.s2{
+  height:18em;
+  width:35em;
+}
+.text2{
+  font-size:35px;
+}
 div#content {
   width: 30%;
   height: 100%;
@@ -52,15 +64,18 @@ div#content {
   border-width:1px 1px 1px 0;  
   background-color: #DAC6FF;
   text-align:center;
+  
 }
 
 footer#top {
+  clear:both;
   width:100%;
   background-color:gray;
   border: 1px solid black;
   text-align:center;
 }
 footer#under {
+  clear:both;
   width:100%;
   background-color:gray;
   border: 1px solid black;
@@ -73,5 +88,8 @@ h1{
 }
 ul#menu li#one{
   font-size:70px;
+}
+.tt{
+  text-decoration: none;
 }
 

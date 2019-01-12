@@ -45,15 +45,19 @@ aside {
   
 }
 table{
-  height:50;
+  margin:0;
+  height:50%;
   width:100%;
-  textalign:center;
+  text-align:center;
 }
-.s3{
+table td{
+  width:50em;
+}
+.s1{
   height:18em;
-  width:35em;
+  width:30em;
 }
-.text3{
+.text1{
   font-size:35px;
 }
 div#content {
@@ -88,6 +92,26 @@ h1{
 }
 ul#menu li#one{
   font-size:70px;
+}
+
+.c1{
+  top:0;
+  text-align:left;
+  font-size:30px;
+}
+.c2{
+  text-align:left;
+  font-size:50px;
+  text-decoration: none;
+}
+li#text2{
+  display: block; 
+  color: blue;
+  text-decoration: none;
+  width:15em;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 .tt{

@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  padding:0;
+ 
   margin: 0;
   padding: 0;
   
@@ -44,7 +44,18 @@ aside {
   text-align:center;
   
 }
-
+table{
+  height:50;
+  width:100%;
+  textalign:center;
+}
+.s1{
+  height:18em;
+  width:35em;
+}
+.text1{
+  font-size:35px;
+}
 div#content {
   width: 30%;
   height: 100%;
@@ -77,5 +88,9 @@ h1{
 }
 ul#menu li#one{
   font-size:70px;
+ 
+}
+.tt{
+  text-decoration: none;
 }
 

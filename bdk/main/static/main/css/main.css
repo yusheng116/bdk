@@ -5,11 +5,11 @@
 html, body {
   margin: 0;
   height: 100%;
+  width:100%
 }
 
 body {
-  padding: 20px;
-  background-repeat: repeat;
+ 
   margin: 0;
   padding: 0;
   
@@ -39,9 +39,9 @@ aside {
   width: 70%;
   height: 100%;
   float: left;
-  background: url("/static/main/img/test.jpeg") fixed;
+  background: url("/static/main/img/main.jpg") fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 70% 100%;
   border: 1px solid black;
   background-color: #DAC6FF;
 }
@@ -54,23 +54,34 @@ div#content {
   border-width:1px 1px 1px 0;  
   background-color: #DAC6FF;
   text-align:center;
+  
 }
 
 footer#top {
+  clear:both;
   width:100%;
   background-color:gray;
   border: 1px solid black;
   text-align:center;
 }
 footer#under {
+  clear:both;
   width:100%;
   background-color:gray;
   border: 1px solid black;
   border-width:0 1px 1px 1px; 
   text-align:center;
 }
+h1{
+  color:#B61B1B;
+  font-size:90px;
+}
 ul#menu li#one{
   font-size:70px;
+ 
+}
+.tt{
+  text-decoration: none;
 }
 
 

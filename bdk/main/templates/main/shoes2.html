@@ -2,7 +2,7 @@
 {% load staticfiles %}
 <html>
 <head>
-<title>BDK鞋鋪-籃球鞋</title>
+<title>BDK鞋鋪-慢跑鞋</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{% static 'main/css/shoes2.css' %}">
 </head>
@@ -10,10 +10,44 @@
 <div id="wrapper">
   <aside>
   <b><I><h1>籃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;球&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鞋</h1></I></b>
+  <table>
+  <tr>
+  <td><a href="{% url 'main:s21' %}"><img class="s2" src="/static/main/img/nike.jpg"></a></td>
+  <td><a href="{% url 'main:s22' %}"><img class="s2" src="/static/main/img/adidas.jpg"></a></td>
+</tr>
+</table>
+<table>
+<tr>
+  <td class="text2"><br><br>Nike LeBron 16NT1<br><br>NT $ 6,600</td>
+  <td class="text2"><br><br>Adidas HARDEN VOL. 3<br><br>NT $ 5,590</td>
+</tr>
+</table>
   </aside>
   <div id="content">
   <ul id="menu">
-  <li id="one"><a href="{% url 'main:main' %}">B.D.K 鞋鋪</a></li>
+  <li id="one"><a class="tt" hclass="tt" ref="{% url 'main:main' %}">B.D.K 鞋鋪</a></li>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <li><a class="tt" href="{% url 'main:shoes1' %}">慢跑鞋</a></li>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <li><a class="tt" href="{% url 'main:shoes2' %}">籃球鞋</a></li>
   <br>
   <br>
   <br>
@@ -25,38 +59,14 @@
   <br>
   <br>
   
-  <li><a href="{% url 'main:shoes1' %}">慢跑鞋</a></li>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-  <li><a href="{% url 'main:shoes2' %}">籃球鞋</a></li>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
- 
-  <li><a href="{% url 'main:shoes3' %}">帆布鞋</a></li>
+  <li><a class="tt" href="{% url 'main:shoes3' %}">帆布鞋</a></li>
   </ul>
   </div>
   <footer id="top">
-  
+
   </footer>
   <footer id="under">
-  
+
   </footer>
   
 </div> 
