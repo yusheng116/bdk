@@ -3,13 +3,12 @@
 }
 
 html, body {
-  margin: 0;
   height: 100%;
-  width:100%
+
 }
 
 body {
- 
+  
   margin: 0;
   padding: 0;
   
@@ -29,8 +28,7 @@ ul#menu li {
 
 div#wrapper {
   margin: 0 auto;
-  width: 100%;
-  height:100%;
+  height:90em;
   
 }
 
@@ -61,6 +59,7 @@ table td{
   font-size:35px;
 }
 div#content {
+  
   width: 30%;
   height: 100%;
   float: left;
@@ -75,14 +74,12 @@ footer#top {
   clear:both;
   width:100%;
   background-color:gray;
-  border: 1px solid black;
   text-align:center;
 }
 footer#under {
   clear:both;
   width:100%;
   background-color:gray;
-  border: 1px solid black;
   border-width:0 1px 1px 1px; 
   text-align:center;
 }
@@ -105,7 +102,7 @@ ul#menu li#one{
   text-decoration: none;
 }
 li#text2{
-  display: block; 
+  display: inline-block; 
   color: blue;
   text-decoration: none;
   width:15em;
