@@ -84,7 +84,7 @@ if DEBUG:   # Running on the development environment
             'USER': 'bdk',
             'PASSWORD': 'bdk',
             'HOST': 'localhost',
-            'PORT': '',
+            'PORT': '',     # Set to empty string for default.
         }
     }
 else:   # Running on Heroku
