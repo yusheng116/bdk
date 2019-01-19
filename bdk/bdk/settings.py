@@ -79,14 +79,14 @@ WSGI_APPLICATION = 'bdk.wsgi.application'
 if DEBUG:   # Running on the development environment
     DATABASES = {
         'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bdkdb',
-        'USER': 'bdk',
-        'PASSWORD': 'bdk',
-        'HOST': 'localhost',
-        'PORT': '',
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'bdkdb',
+            'USER': 'bdk',
+            'PASSWORD': 'bdk',
+            'HOST': 'localhost',
+            'PORT': '',
+        }
     }
-}
 else:   # Running on Heroku
     # Parse database configuration from $DATABASE_URL
     import dj_database_url
